@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{/*imagem de fundo*/
+    background-image: url("/img/foto\ arrumada.jpg");
+    background-repeat: no-repeat;
+    height: 2695px;
+    background-attachment: fixed;
+}
+.menu ul{/*detalhe menu*/
+    list-style: none;
+    margin-left: 65%;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+.menu li{/*cor menu*/
+    color: white;
+    font-size: 25px;
+    display: inline;
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 35px;
+    padding: 8px;
+    background-color: black;
+}
+.menu li a{/*detalhe menu 2*/
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{/*detalhe menu com mouse */
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+.intro{/*espaçamento intro*/
+    margin-left: 32%;
+    margin-top: 10%;
+}
+.intro h1{/*detalhes intro*/
+    color: white;
+    width: 450px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.7);
+}
+/*conteúdo do site*/
+
+.titulo1 h1{/*titulo principal sociais*/
+    color: white;
+    margin-left: 31%;
+    margin-top: 10%;
+    border: solid 2px black;
+    width: 495px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.foto1 img{/*comprimentos foto*/
+    border: solid 2px black;
+    width: 200px;
+    height: 230px;
+}
+.foto1{/*espaçamento foto*/
+    margin-left: 41%;
+    margin-top: 5%;
+}
+.main ul{/*detalhe sociais*/
+    list-style: none;
+    margin-left: 27%;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    opacity: 0.8;
+}
+.main li{/*cor sociais*/
+    color: white;
+    font-size: 25px;
+    display: inline;
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 35px;
+    padding: 8px;
+    background-color: black;
+}
+.main li img{/*larguras sociais*/
+    width: 25px;
+    height: 25px;
+}
+.main li a{/*detalhe sociais*/
+    text-decoration: none;
+    color: white;
+}
+.main li a:hover{/*detalhe sociais 2*/
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+.titulo2 h1{/*titulo principal*/
+    color: white;
+    margin-left: 31%;
+    margin-top: 75px;
+    border: solid 2px black;
+    width: 495px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.projeto1 h2{/*título projeto1*/
+    color: white;
+    margin-left: 31%;
+    margin-top: 75px;
+    border: solid 2px black;
+    width: 495px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.projeto1 img{/*largura imagem projeto1*/
+    width: 390px;
+    height: 250px;
+    border: solid 2px black;
+    margin-left: 35%;
+}
+.projeto2 h2{/*título projeto2*/
+    color: white;
+    margin-left: 28%;
+    margin-top: 75px;
+    border: solid 2px black;
+    width: 575px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.projeto2 img{/*largura imagem projeto2*/
+    width: 390px;
+    height: 250px;
+    border: solid 2px black;
+    margin-left: 35%;
+}
+.projeto3 h2{/*título projeto3*/
+    color: white;
+    margin-left: 20%;
+    margin-top: 75px;
+    border: solid 2px black;
+    width: 800px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.projeto3 img{/*largura imagem projeto3*/
+    width: 390px;
+    height: 250px;
+    border: solid 2px black;
+    margin-left: 35%;
+}
+.contato h1{/*titulo contato*/
+    color: white;
+    margin-left: 38%;
+    margin-top: 75px;
+    border: solid 2px black;
+    width: 300px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.zap h3{/*texto contato1*/
+    color: white;
+    margin-left: 38%;
+    margin-top: 75px;
+    border: solid 2px black;
+    width: 300px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.zap img{/*largura imagem contato1*/
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.gmail h3{/*texto contato2*/
+    color: white;
+    margin-left: 33%;
+    margin-top: 25px;
+    border: solid 2px black;
+    width: 440px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+.gmail img{/*largura imagem contato2*/
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/*Rodapé*/
+
+.rod{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.rod h4{
+    text-align: center;
+    color: white;
+    padding: 90px 0 0 0;
+}

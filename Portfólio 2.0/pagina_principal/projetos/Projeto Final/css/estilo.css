@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Estilo para o Body*/
+body{
+    padding: 0 12px;
+    font-family: Arial;
+    margin: 0;
+    background-color: #fff8dc;
+}
+
+/* Estilo para Header/Logo*/
+.header{
+    padding: 0;
+    position: relative;
+    margin: 0;
+    background-color: black;
+}
+
+/* Estilo para o título/h1 da capa*/
+.capa{
+    position: absolute;
+    bottom: 128px;
+    right: 100px;
+    font-size: 78px;
+    color: #006400;
+}
+
+/* Estilo para a imagem da capa*/
+img{
+    width: 100%;
+    height: 420px;
+}
+
+/* Estilo para o menu */
+.navbar{
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+    background: #006400;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: #ffd700 solid 1px;
+    z-index: 2;
+}
+
+/* Estilo para o links do Menu*/
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Estilo para o menu, quando passar o mouse */
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Estilo para o contéudo da Página Home*/
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Estilo para o contéudo da Classe Main*/
+.main{
+    flex: 70%;
+    background-color: #fff8dc;
+    padding: 20px;
+}
+
+/*Estilo para o Título da Página Home*/
+h2{
+    text-align: center;
+    color: #006400;
+}
+
+/* Estilo para as imagens da página Home */
+.fakeimg{
+    width: 100%;
+    padding: 20px;
+    border: solid 5px green;
+}
+
+
+/* Estilo para o Rodapé */
+.footer{
+    padding: 15px;
+    text-align: center;
+    background: #006400;
+    border-top: solid 3px #ffd700;
+    color: white;
+    height: 250px;
+    width: 100%;
+    font-style: bold;
+    text-align: center;
+}
+
+/* Estilo para a lista do Rodapé */
+#info li{
+    color: #ffd700;
+    text-align: center;
+    list-style-type: none;
+    padding: 3px;
+}
+
+/* Estilo para o nome do desenvolvedor no Rodapé */
+.rod{
+    text-align: center;
+    font-size: 18px;
+    margin: 30px;
+}
+
+/* Estilo para a div que contém o título e a imagem da galéria */
+.item{
+    text-align: center;
+    margin-left: 30px;
+}
+
+/* Estilo para a div que contém a imagem da galéria */
+.box-item{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-right: 10px;
+    border: solid 3px green;
+    border-radius: 20%;
+}
+
+/* Estilo para a imagem da galéria */
+.item > img {
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    border-radius: 100%;
+}
+
+/* Estilo para o título H1 da galéria */
+  .tipo{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(54, 6, 6);
+    height: 90px;
+    border-bottom: #ffd700 solid 3px;
+    border-top: #ffd700 solid 3px;
+
+  }
+
+  /* Responsividade da página */
+  @media screen and(max-widht: 600px) {
+    .capa{
+     position: absolute;
+     bottom: 168px;
+     right: 8px;
+     font-size: 35px;
+    }
+
+    .row, .navbar{
+        justify-content: end;
+    }
+
+    .rod{
+        font-size: 8px;
+    }
+  }
+
